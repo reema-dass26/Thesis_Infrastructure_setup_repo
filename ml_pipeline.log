@@ -1,0 +1,54 @@
+2025-01-05 12:27:47,292 - INFO - Generating synthetic dataset...
+2025-01-05 12:27:47,468 - INFO - Dataset generated successfully.
+2025-01-05 12:27:47,468 - INFO - Splitting dataset into training and test sets...
+2025-01-05 12:27:47,491 - INFO - Dataset split completed.
+2025-01-05 12:27:47,491 - INFO - Number of samples: 100000
+2025-01-05 12:27:47,491 - INFO - Number of features: 20
+2025-01-05 12:27:47,491 - INFO - Train-test split ratio: 80:20
+2025-01-05 12:27:47,491 - INFO - Random state: 42
+2025-01-05 12:27:47,492 - INFO - Training logistic regression model...
+2025-01-05 12:27:47,721 - INFO - Model training completed in 0.23 seconds.
+2025-01-05 12:27:47,721 - INFO - Evaluating the model...
+2025-01-05 12:27:47,725 - INFO - Accuracy: 0.8074
+2025-01-05 12:27:47,764 - INFO - Classification report:
+2025-01-05 12:27:47,764 - INFO - 0: {'precision': 0.8019490107294025, 'recall': 0.8157604886352258, 'f1-score': 0.8087957907276878, 'support': 9987.0}
+2025-01-05 12:27:47,764 - INFO - 1: {'precision': 0.8130271313890864, 'recall': 0.7990612204134625, 'f1-score': 0.8059836808703537, 'support': 10013.0}
+2025-01-05 12:27:47,764 - INFO - accuracy: 0.8074
+2025-01-05 12:27:47,764 - INFO - macro avg: {'precision': 0.8074880710592445, 'recall': 0.8074108545243441, 'f1-score': 0.8073897357990207, 'support': 20000.0}
+2025-01-05 12:27:47,764 - INFO - weighted avg: {'precision': 0.8074952718376733, 'recall': 0.8074, 'f1-score': 0.8073879079276135, 'support': 20000.0}
+2025-01-05 12:27:47,764 - INFO - Number of samples: 100000
+2025-01-05 12:27:47,764 - INFO - Number of features: 20
+2025-01-05 12:27:47,765 - INFO - Train-test split ratio: 80:20
+2025-01-05 12:27:47,765 - INFO - Random state: 42
+2025-01-05 12:27:47,765 - INFO - Training time (s): 0.22747230529785156
+2025-01-05 12:27:47,765 - INFO - Accuracy: 0.8074
+2025-01-05 12:27:47,765 - INFO - Model: Logistic Regression
+2025-01-05 12:27:47,765 - INFO - Max iterations: 1000
+2025-01-05 12:27:47,765 - INFO - ML pipeline completed.
+2025-01-05 12:28:00,851 - INFO - Generating synthetic dataset...
+2025-01-05 12:28:01,019 - INFO - Dataset generated successfully.
+2025-01-05 12:28:01,019 - INFO - Splitting dataset into training and test sets...
+2025-01-05 12:28:01,050 - INFO - Dataset split completed.
+2025-01-05 12:28:01,050 - INFO - Number of samples: 100000
+2025-01-05 12:28:01,050 - INFO - Number of features: 20
+2025-01-05 12:28:01,051 - INFO - Train-test split ratio: 80:20
+2025-01-05 12:28:01,051 - INFO - Random state: 42
+2025-01-05 12:28:01,051 - INFO - Training logistic regression model...
+2025-01-05 12:28:01,329 - INFO - Model training completed in 0.28 seconds.
+2025-01-05 12:28:01,330 - INFO - Evaluating the model...
+2025-01-05 12:28:01,333 - INFO - Accuracy: 0.8074
+2025-01-05 12:28:01,368 - INFO - Classification report:
+2025-01-05 12:28:01,369 - INFO - 0: {'precision': 0.8019490107294025, 'recall': 0.8157604886352258, 'f1-score': 0.8087957907276878, 'support': 9987.0}
+2025-01-05 12:28:01,369 - INFO - 1: {'precision': 0.8130271313890864, 'recall': 0.7990612204134625, 'f1-score': 0.8059836808703537, 'support': 10013.0}
+2025-01-05 12:28:01,369 - INFO - accuracy: 0.8074
+2025-01-05 12:28:01,369 - INFO - macro avg: {'precision': 0.8074880710592445, 'recall': 0.8074108545243441, 'f1-score': 0.8073897357990207, 'support': 20000.0}
+2025-01-05 12:28:01,369 - INFO - weighted avg: {'precision': 0.8074952718376733, 'recall': 0.8074, 'f1-score': 0.8073879079276135, 'support': 20000.0}
+2025-01-05 12:28:01,369 - INFO - Number of samples: 100000
+2025-01-05 12:28:01,369 - INFO - Number of features: 20
+2025-01-05 12:28:01,369 - INFO - Train-test split ratio: 80:20
+2025-01-05 12:28:01,369 - INFO - Random state: 42
+2025-01-05 12:28:01,369 - INFO - Training time (s): 0.2775897979736328
+2025-01-05 12:28:01,369 - INFO - Accuracy: 0.8074
+2025-01-05 12:28:01,370 - INFO - Model: Logistic Regression
+2025-01-05 12:28:01,370 - INFO - Max iterations: 1000
+2025-01-05 12:28:01,370 - INFO - ML pipeline completed.
