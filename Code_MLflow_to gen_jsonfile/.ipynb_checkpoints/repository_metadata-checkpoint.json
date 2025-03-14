@@ -1,0 +1,106 @@
+{
+    "github_repository_metadata_longer_version": {
+        "repo_id": 901316546,
+        "repo_name": "Thesis_Infrastructure_setup_repo",
+        "owner": {
+            "username": "reema-dass26",
+            "profile_url": "https://github.com/reema-dass26"
+        },
+        "created_date": "2024-12-10T12:43:43Z",
+        "modified_date": "2025-03-06T14:22:01Z",
+        "primary_language": "Jupyter Notebook",
+        "topics": [],
+        "description": null,
+        "contributors": [
+            {
+                "username": "reema-dass26",
+                "profile_url": "https://github.com/reema-dass26",
+                "contributions": 12
+            }
+        ],
+        "license": {
+            "license_name": null,
+            "license_url": null
+        },
+        "visibility": "public",
+        "fork_status": {
+            "is_forked": false,
+            "original_repo": null
+        },
+        "source_code": {
+            "repo_url": "https://github.com/reema-dass26/Thesis_Infrastructure_setup_repo",
+            "default_branch": "main"
+        },
+        "dependencies": [],
+        "commits": {
+            "total_commits": 0,
+            "latest_commit_hash": "fdf732a5e9d5285f1ca85aedf6b335014322ab9a",
+            "latest_commit_timestamp": "2025-03-06T14:21:57Z",
+            "commit_authors": [
+                "Reema George"
+            ]
+        },
+        "pull_requests": {
+            "total_prs": 3,
+            "merged_prs": 3,
+            "open_prs": 0,
+            "closed_prs": 3
+        },
+        "workflow_runs": {
+            "ci_cd_provider": "GitHub Actions",
+            "total_runs": 0,
+            "last_run_status": null,
+            "last_run_timestamp": null
+        },
+        "issues": {
+            "total_issues": 3,
+            "open_issues": 0,
+            "closed_issues": 3
+        },
+        "forks": 0,
+        "stars": 0,
+        "watchers": 0,
+        "readme": {
+            "readme_url": "https://github.com/reema-dass26/Thesis_Infrastructure_setup_repo/blob/main/README.md",
+            "readme_last_updated": "2025-03-06T14:22:01Z"
+        },
+        "code_quality": {
+            "linting_status": "Not Available",
+            "test_coverage": "Not Available",
+            "static_analysis_tools": []
+        },
+        "security_scans": {
+            "vulnerability_scan_results": "Not Available",
+            "critical_vulnerabilities": 0,
+            "high_vulnerabilities": 0,
+            "medium_vulnerabilities": 0
+        },
+        "documentation": {
+            "docs_url": "https://github.com/reema-dass26/Thesis_Infrastructure_setup_repo/wiki",
+            "doc_coverage": "Not Available",
+            "api_documentation": "Not Available"
+        },
+        "releases": {
+            "latest_release_version": null,
+            "latest_release_date": null,
+            "release_notes_url": null
+        },
+        "modification_history": {
+            "change_log_url": "https://github.com/reema-dass26/Thesis_Infrastructure_setup_repo/blob/main/CHANGELOG.md",
+            "release_history": []
+        },
+        "derived_from": null,
+        "reproducibility_guidelines": {
+            "setup_steps": "Not Available",
+            "dataset_references": [],
+            "hardware_requirements": "Not Available",
+            "docker_setup": "Not Available",
+            "virtual_environment": "Not Available"
+        },
+        "collaboration_tools": {
+            "discussion_enabled": false,
+            "projects_enabled": true,
+            "wiki_enabled": true
+        }
+    }
+}
