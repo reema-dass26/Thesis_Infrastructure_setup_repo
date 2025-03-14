@@ -1,0 +1,33 @@
+{
+    "dataset": {
+        "name": "Iris",
+        "features": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+        ],
+        "target": [
+            "setosa",
+            "versicolor",
+            "virginica"
+        ]
+    },
+    "data_preprocessing": {
+        "imputation_strategy": "mean",
+        "justification_imputation": "\n    Chose mean imputation strategy as the dataset contains numerical values that are missing randomly,\n    and the mean is expected to provide an unbiased estimate.\n    ",
+        "scaling_method": "StandardScaler",
+        "justification_scaling": "\n    Used StandardScaler to normalize the features and improve the model's ability to learn, \n    especially when working with distance-based algorithms like Random Forest.\n    "
+    },
+    "model": {
+        "model_choice": "RandomForestClassifier",
+        "n_estimators": 100,
+        "max_depth": 10,
+        "justification_model_choice": "\n    Chose Random Forest Classifier due to its robustness in handling non-linear relationships, \n    and its ability to handle both categorical and numerical features. It also performs well on small datasets.\n    "
+    },
+    "evaluation": {
+        "accuracy": 1.0,
+        "confusion_matrix_artifact": "confusion_matrix.png",
+        "feature_importance_artifact": "feature_importance.png"
+    }
+}

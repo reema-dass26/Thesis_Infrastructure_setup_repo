@@ -1,0 +1,120 @@
+{
+  "structured_repository": {
+    "title": "",  // Dublin Core, DataCite
+    "description": "",  // Dublin Core, DataCite
+    "identifier": "",  // DataCite (DOI, Handle)
+    "creator": "",  // Dublin Core
+    "contributor": "",  // Dublin Core, DataCite
+    "publisher": "",  // Dublin Core
+    "date_created": "",  // DataCite, DCAT
+    "date_modified": "",  // DataCite, DCAT
+    "subject": "",  // Dublin Core
+    "keywords": [],  // DataCite
+    "language": "",  // Dublin Core
+    "format": "",  // Dublin Core
+    "version": "",  // DataCite
+    "license": "",  // Dublin Core, DataCite
+    "access_rights": "",  // DCAT, FAIR principles
+    "source": "",  // Dublin Core
+    "relations": {
+      "is_part_of": "",  // DataCite, DCAT
+      "has_part": "",  // DataCite
+      "references": "",  // Dublin Core
+      "is_referenced_by": ""  // Dublin Core
+    },
+    "geolocation": "",  // DCAT (for geographic datasets)
+    "funding_info": "",  // DataCite (for research funding sources)
+    "citation": "",  // DataCite (for dataset citations)
+    "provenance": {
+      "derived_from": "",  // PROV-O (for tracking derivations)
+      "modification_history": []  // PROV-O
+    }
+  },
+  "unstructured_repository": {
+    "file_name": "",  // File system metadata
+    "file_size": "",  // File system metadata
+    "file_format": "",  // Dublin Core, BagIt
+    "checksum": "",  // BagIt
+    "storage_location": "",  // BagIt
+    "creation_date": "",  // PREMIS
+    "modification_date": "",  // File system metadata
+    "access_control": "",  // PREMIS
+    "ownership": "",  // PREMIS
+    "retention_policy": "",  // Information Governance frameworks
+    "classification": "",  // Information security metadata
+    "tags": [],  // General metadata best practices
+    "provenance": {
+      "source": "",  // PROV-O
+      "derivation": "",  // PROV-O
+      "transformation": ""  // PROV-O
+    },
+    "usage_logs": [],  // PREMIS (tracking file access)
+    "annotations": []  // General metadata for adding notes
+  },
+  "machine_learning_metadata": {
+    "dataset": {
+      "name": "",  // OpenML, MLflow
+      "version": "",  // OpenML
+      "source": "",  // Croissant, MLflow
+      "features": [],  // OpenML
+      "labels": [],  // OpenML
+      "preprocessing_steps": []  // MLflow
+    },
+    "model": {
+      "architecture": "",  // MLflow
+      "framework": "",  // MLflow
+      "hyperparameters": {},  // MLflow, NeMo
+      "training_data": "",  // MLflow, OpenML
+      "evaluation_metrics": {
+        "accuracy": "",  // MLflow, OpenML
+        "precision": "",  // MLflow
+        "recall": "",  // MLflow
+        "f1_score": ""  // MLflow
+      },
+      "training_time": "",  // MLflow
+      "hardware_specifications": {
+        "gpu": "",  // NeMo, MLflow
+        "cpu": "",  // MLflow
+        "memory": ""  // MLflow
+      }
+    },
+    "provenance": {
+      "training_date": "",  // MLflow
+      "trained_by": "",  // OpenML
+      "data_version": "",  // OpenML
+      "code_version": ""  // MLflow
+    },
+    "explainability_metadata": {
+      "feature_importance": {},  // MLflow, SHAP
+      "model_bias_metrics": {}  // AI ethics frameworks
+    },
+    "lineage": {
+      "previous_model": "",  // MLflow
+      "next_model": ""  // MLflow
+    }
+  },
+  "github_repository_metadata": {
+    "repository_name": "",  // GitHub API
+    "owner": "",  // GitHub API
+    "description": "",  // GitHub API
+    "visibility": "",  // GitHub API
+    "created_at": "",  // GitHub API
+    "updated_at": "",  // GitHub API
+    "pushed_at": "",  // GitHub API
+    "language": "",  // GitHub API
+    "topics": [],  // GitHub API
+    "license": "",  // GitHub API, CodeMeta
+    "default_branch": "",  // GitHub API
+    "stars": "",  // GitHub API
+    "forks": "",  // GitHub API
+    "open_issues": "",  // GitHub API
+    "pull_requests": "",  // GitHub API
+    "contributors": [],  // GitHub API
+    "commits": [],  // GitHub API
+    "releases": [],  // GitHub API
+    "workflow_runs": [],  // GitHub Actions API
+    "dependencies": [],  // CodeMeta
+    "software_version": "",  // Software Heritage
+    "security_scans": {}  // GitHub Security API
+  }
+}

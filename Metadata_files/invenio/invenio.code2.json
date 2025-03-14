@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "links": {
+    "self": "https://127.0.0.1:5000/api/records/4t77w-a4p21/draft/files",
+    "archive": "https://127.0.0.1:5000/api/records/4t77w-a4p21/draft/files-archive"
+  },
+  "entries": [
+    {
+      "key": "ML_model",
+      "created": "2025-01-20T11:19:01.405858+00:00",
+      "updated": "2025-01-20T11:19:01.414540+00:00",
+      "status": "pending",
+      "metadata": null,
+      "access": {
+        "hidden": false
+      },
+      "links": {
+        "self": "https://127.0.0.1:5000/api/records/4t77w-a4p21/draft/files/ML_model",
+        "content": "https://127.0.0.1:5000/api/records/4t77w-a4p21/draft/files/ML_model/content",
+        "commit": "https://127.0.0.1:5000/api/records/4t77w-a4p21/draft/files/ML_model/commit"
+      }
+    }
+  ],
+  "default_preview": null,
+  "order": []
+}

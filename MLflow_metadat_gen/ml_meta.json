@@ -1,0 +1,106 @@
+{
+    "model_artifact_location": "models/random_forest_iris/",
+    "confusion_matrix_link": "confusion_matrix.png",
+    "feature_importance_link": "feature_importance.png",
+    "experiment_metadata": {
+        "experiment_id": "6244a75eedac4bb58066912b97c4a9d5",
+        "model_name": "RandomForestClassifier",
+        "algorithm": "Random Forest",
+        "dataset_used": "Iris",
+        "training_date": "2025-03-10",
+        "trained_by": "Reema",
+        "data_preprocessing": {
+            "missing_values": {
+                "strategy": "Imputation",
+                "affected_columns": [
+                    "sepal length (cm)",
+                    "sepal width (cm)",
+                    "petal length (cm)",
+                    "petal width (cm)"
+                ],
+                "imputation_method": "Mean"
+            },
+            "feature_scaling": {
+                "scaling_method": "Standardization",
+                "applied_columns": [
+                    "sepal length (cm)",
+                    "sepal width (cm)",
+                    "petal length (cm)",
+                    "petal width (cm)"
+                ]
+            },
+            "encoding": {
+                "categorical_encoding": "None",
+                "affected_columns": []
+            },
+            "outlier_handling": {
+                "strategy": "None",
+                "affected_columns": [],
+                "detection_method": "None"
+            },
+            "data_transformation": {
+                "applied_methods": [
+                    "Standardization"
+                ],
+                "reason_for_transformation": "Improves model performance for distance-based algorithms"
+            },
+            "data_splits": {
+                "train_test_split": "80-20",
+                "cross_validation_folds": 5
+            }
+        },
+        "hyperparameters": {
+            "learning_rate": 0.0,
+            "batch_size": 0,
+            "epochs": 0,
+            "optimizer": "Adam",
+            "loss_function": "Cross-entropy"
+        },
+        "performance_metrics": {
+            "accuracy": 0.0,
+            "f1_score": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "auc_roc": 0.0,
+            "loss": 0.0
+        },
+        "model_explainability": {
+            "explainability_report": "SHAP, LIME (placeholder)",
+            "feature_importance": [
+                "List of most important features impacting model predictions"
+            ],
+            "explainability_score": "Placeholder"
+        },
+        "dependencies": [
+            "scikit-learn",
+            "matplotlib",
+            "seaborn"
+        ],
+        "environment": "OS: Linux, CPU: Intel i7, RAM: 16GB",
+        "model_artifact_location": "models/random_forest_iris/",
+        "license": "MIT",
+        "source_code": "GitHub link here",
+        "training_logs": "Link to logs",
+        "previous_model": "None",
+        "next_model": "Placeholder",
+        "derived_from": "Original Iris dataset",
+        "model_card": "Standard model documentation available here",
+        "validation_results": {
+            "dataset_id": "Iris DOI here",
+            "validation_metrics": {
+                "accuracy": 0.0,
+                "f1_score": 0.0,
+                "precision": 0.0,
+                "recall": 0.0
+            }
+        },
+        "deployment_status": "Inactive",
+        "deployment_endpoint": "URL to deployed model",
+        "reproducibility_guidelines": "Steps to reproduce the training pipeline",
+        "bias_analysis": {
+            "bias_check_method": "Disparate impact",
+            "identified_bias": "No significant bias detected",
+            "mitigation_strategies": "None"
+        }
+    }
+}

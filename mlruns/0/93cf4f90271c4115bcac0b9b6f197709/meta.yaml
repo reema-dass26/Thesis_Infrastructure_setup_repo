@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/reema/Thesis_Infra_repo/mlruns/0/93cf4f90271c4115bcac0b9b6f197709/artifacts
+end_time: 1741637535146
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 93cf4f90271c4115bcac0b9b6f197709
+run_name: clean-skunk-27
+run_uuid: 93cf4f90271c4115bcac0b9b6f197709
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741637526300
+status: 3
+tags: []
+user_id: reema

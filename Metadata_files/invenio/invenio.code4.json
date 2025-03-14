@@ -1,0 +1,22 @@
+{
+  "key": "ML_model",
+  "storage_class": "L",
+  "checksum": "md5:e99d10a6109248d9103fac13c10a62cf",
+  "size": 2794,
+  "created": "2025-01-20T11:19:01.405858+00:00",
+  "updated": "2025-01-20T11:24:40.839244+00:00",
+  "status": "completed",
+  "mimetype": "application/octet-stream",
+  "version_id": "2f028edf-9f82-4af8-9fce-992af210b7cb",
+  "file_id": "39a7c4ff-c45c-4776-a5d9-9f4279c305cc",
+  "bucket_id": "09a894f5-ce18-4d11-b9f3-e8cc108ccabb",
+  "metadata": null,
+  "access": {
+    "hidden": false
+  },
+  "links": {
+    "self": "https://127.0.0.1:5000/api/records/4t77w-a4p21/draft/files/ML_model",
+    "content": "https://127.0.0.1:5000/api/records/4t77w-a4p21/draft/files/ML_model/content",
+    "commit": "https://127.0.0.1:5000/api/records/4t77w-a4p21/draft/files/ML_model/commit"
+  }
+}

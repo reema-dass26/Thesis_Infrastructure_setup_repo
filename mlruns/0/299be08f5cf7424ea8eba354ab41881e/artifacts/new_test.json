@@ -1,0 +1,64 @@
+{
+    "experiment_id": "299be08f5cf7424ea8eba354ab41881e",
+    "model_name": "RandomForestClassifier",
+    "algorithm": "Random Forest",
+    "dataset_used": "Iris",
+    "training_date": "2025-03-10",
+    "trained_by": "Reema",
+    "data_preprocessing": {
+        "missing_values": {
+            "strategy": "Imputation",
+            "affected_columns": [
+                "sepal length (cm)",
+                "sepal width (cm)",
+                "petal length (cm)",
+                "petal width (cm)"
+            ],
+            "imputation_method": "Mean"
+        },
+        "feature_scaling": {
+            "scaling_method": "Standardization",
+            "applied_columns": [
+                "sepal length (cm)",
+                "sepal width (cm)",
+                "petal length (cm)",
+                "petal width (cm)"
+            ]
+        }
+    },
+    "data_splits": {
+        "train_test_split": "80-20",
+        "cross_validation_folds": 5
+    },
+    "hyperparameters": {
+        "n_estimators": 100,
+        "max_depth": 10
+    },
+    "metrics": {
+        "accuracy": 1.0,
+        "confusion_matrix": [
+            [
+                50,
+                0,
+                0
+            ],
+            [
+                0,
+                50,
+                0
+            ],
+            [
+                0,
+                0,
+                50
+            ]
+        ],
+        "feature_importance": {
+            "sepal length (cm)": 0.08221996103283072,
+            "sepal width (cm)": 0.0284201800039066,
+            "petal length (cm)": 0.4512701825790955,
+            "petal width (cm)": 0.43808967638416724
+        }
+    },
+    "deployment_status": "Inactive"
+}

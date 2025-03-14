@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/reema/Thesis_Infra_repo/mlruns/0/2855f6fd65d04d4b85e722a4ca4e8bb3/artifacts
+end_time: 1741636754889
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2855f6fd65d04d4b85e722a4ca4e8bb3
+run_name: smiling-rat-19
+run_uuid: 2855f6fd65d04d4b85e722a4ca4e8bb3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741636744200
+status: 3
+tags: []
+user_id: reema

@@ -1,0 +1,17 @@
+{
+    "API_Response": [
+      {
+        "id": "cafa07cc-284c-4907-9bbd-049e2a3caf59",
+        "name": "iris_view",
+        "query": "select id, sepallengthcm, sepalwidthcm, petallengthcm, petalwidthcm, species from iris_data",
+        "database_id": "6c1c5dbd-d471-416f-997f-cf5bf72943e4",
+        "internal_name": "iris_view",
+        "is_public": true,
+        "is_schema_public": true,
+        "initial_view": false,
+        "query_hash": "f41e7177bb69d28e64bb3b4dbe811d63aac6184e17fbbe612832f7daf0432e6d",
+        "owned_by": "b5f8ee32-8fcf-103f-8096-190a4a536a8d"
+      }
+    ]
+  }
+  

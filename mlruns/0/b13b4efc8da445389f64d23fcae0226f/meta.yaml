@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/reema/Thesis_Infra_repo/mlruns/0/b13b4efc8da445389f64d23fcae0226f/artifacts
+end_time: 1741637685289
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b13b4efc8da445389f64d23fcae0226f
+run_name: sneaky-carp-669
+run_uuid: b13b4efc8da445389f64d23fcae0226f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741637676346
+status: 3
+tags: []
+user_id: reema

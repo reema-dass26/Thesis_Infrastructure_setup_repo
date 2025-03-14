@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/reema/Thesis_Infra_repo/mlruns/0/d15742dcbdd9408bbb5b2b153b59f6f5/artifacts
+end_time: 1741637369379
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d15742dcbdd9408bbb5b2b153b59f6f5
+run_name: bedecked-skunk-289
+run_uuid: d15742dcbdd9408bbb5b2b153b59f6f5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741637360392
+status: 3
+tags: []
+user_id: reema

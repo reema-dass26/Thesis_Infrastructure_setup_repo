@@ -1,0 +1,80 @@
+Detailed Metadata:
+{
+    "resource_type": {
+        "id": "model",
+        "title": {
+            "de": "Modell",
+            "en": "Model",
+            "sv": "Modell"
+        }
+    },
+    "creators": [
+        {
+            "person_or_org": {
+                "type": "personal",
+                "name": "Dass, Reema",
+                "given_name": "Reema",
+                "family_name": "Dass"
+            }
+        }
+    ],
+    "title": "ML model",
+    "publisher": "Thesis",
+    "publication_date": "2025-03-07",
+    "dates": [
+        {
+            "date": "2025-02",
+            "type": {
+                "id": "other",
+                "title": {
+                    "de": "Sonstiges",
+                    "en": "Other",
+                    "sv": "Övrig"
+                }
+            },
+            "description": "other"
+        }
+    ],
+    "version": "1",
+    "rights": [
+        {
+            "id": "cc-by-4.0",
+            "title": {
+                "en": "Creative Commons Attribution 4.0 International"
+            },
+            "description": {
+                "en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."
+            },
+            "icon": "cc-by-icon",
+            "props": {
+                "url": "https://creativecommons.org/licenses/by/4.0/",
+                "scheme": "spdx"
+            }
+        },
+        {
+            "id": "cc0-1.0",
+            "title": {
+                "en": "Creative Commons Zero v1.0 Universal"
+            },
+            "description": {
+                "en": "CC0 waives copyright interest in a work you've created and dedicates it to the world-wide public domain. Use CC0 to opt out of copyright entirely and ensure your work has the widest reach."
+            },
+            "icon": "cc-cc0-icon",
+            "props": {
+                "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                "scheme": "spdx"
+            }
+        }
+    ],
+    "description": "<p>ML model description</p>"
+}
+metadata keys
+resource_type
+creators
+title
+publisher
+publication_date
+dates
+version
+rights
+description
