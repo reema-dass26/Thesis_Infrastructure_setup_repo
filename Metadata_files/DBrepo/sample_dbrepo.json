@@ -1,0 +1,911 @@
+{
+    "id": 0,
+    "name": "Air Quality",
+    "description": "Air Quality",
+    "tables": [
+      {
+        "id": 0,
+        "name": "Air Quality",
+        "alias": "string",
+        "identifiers": [
+          {
+            "id": 0,
+            "type": "database",
+            "titles": [
+              {
+                "id": 0,
+                "title": "Airquality Demonstrator",
+                "language": "en",
+                "type": "AlternativeTitle"
+              }
+            ],
+            "descriptions": [
+              {
+                "id": 0,
+                "description": "Air quality reports at Stephansplatz, Vienna",
+                "language": "en",
+                "type": "Abstract"
+              }
+            ],
+            "funders": [
+              {
+                "id": 0,
+                "funder_name": "European Commission",
+                "funder_identifier": "http://doi.org/10.13039/501100000780",
+                "funder_identifier_type": "Crossref Funder ID",
+                "scheme_uri": "http://doi.org/",
+                "award_number": "824087",
+                "award_title": "EOSC-Life"
+              }
+            ],
+            "query": "SELECT `id`, `value`, `location` FROM `air_quality` WHERE `location` = \"09:STEF\"",
+            "execution": "2021-03-12T15:26:21.000Z",
+            "doi": "10.1038/nphys1170",
+            "publisher": "TU Wien",
+            "creator": {
+              "id": "1ffc7b0e-9aeb-4e8b-b8f1-68f3936155b4",
+              "username": "jcarberry",
+              "name": "Josiah Carberry",
+              "attributes": {
+                "theme": "light",
+                "orcid": "https://orcid.org/0000-0002-1825-0097",
+                "affiliation": "Brown University",
+                "language": "en"
+              },
+              "qualified_name": "Josiah Carberry — @jcarberry",
+              "given_name": "Josiah",
+              "family_name": "Carberry"
+            },
+            "language": "ab",
+            "licenses": [
+              {
+                "identifier": "MIT",
+                "uri": "https://opensource.org/licenses/MIT",
+                "description": "A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code."
+              }
+            ],
+            "creators": [
+              {
+                "id": 0,
+                "firstname": "Josiah",
+                "lastname": "Carberry",
+                "affiliation": "Brown University",
+                "creator_name": "Carberry, Josiah",
+                "name_type": "Personal",
+                "name_identifier": "0000-0002-1825-0097",
+                "name_identifier_scheme": "ORCID",
+                "name_identifier_scheme_uri": "https://orcid.org/",
+                "affiliation_identifier": "https://ror.org/05gq02987",
+                "affiliation_identifier_scheme": "ROR",
+                "affiliation_identifier_scheme_uri": "https://ror.org/"
+              }
+            ],
+            "status": "draft",
+            "created": "2021-03-12T15:26:21.000Z",
+            "database_id": 1,
+            "query_id": 1,
+            "table_id": 1,
+            "view_id": 1,
+            "query_normalized": "SELECT `id`, `value`, `location` FROM `air_quality` WHERE `location` = \"09:STEF\"",
+            "related_identifiers": [
+              {
+                "id": 0,
+                "value": "10.70124/dc4zh-9ce78",
+                "type": "DOI",
+                "relation": "Cites"
+              }
+            ],
+            "query_hash": "string",
+            "result_hash": "34fe82cda2c53f13f8d90cfd7a3469e3a939ff311add50dce30d9136397bf8e5",
+            "result_number": 1,
+            "publication_day": 15,
+            "publication_month": 12,
+            "publication_year": 2022,
+            "created_by": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "last_modified": "2021-03-12T15:26:21.000Z"
+          }
+        ],
+        "creator": {
+          "id": "1ffc7b0e-9aeb-4e8b-b8f1-68f3936155b4",
+          "username": "jcarberry",
+          "name": "Josiah Carberry",
+          "attributes": {
+            "theme": "light",
+            "orcid": "https://orcid.org/0000-0002-1825-0097",
+            "affiliation": "Brown University",
+            "language": "en"
+          },
+          "qualified_name": "Josiah Carberry — @jcarberry",
+          "given_name": "Josiah",
+          "family_name": "Carberry"
+        },
+        "owner": {
+          "id": "1ffc7b0e-9aeb-4e8b-b8f1-68f3936155b4",
+          "username": "jcarberry",
+          "name": "Josiah Carberry",
+          "attributes": {
+            "theme": "light",
+            "orcid": "https://orcid.org/0000-0002-1825-0097",
+            "affiliation": "Brown University",
+            "language": "en"
+          },
+          "qualified_name": "Josiah Carberry — @jcarberry",
+          "given_name": "Josiah",
+          "family_name": "Carberry"
+        },
+        "description": "Air Quality in Austria",
+        "created": "2021-03-12T15:26:21.000Z",
+        "columns": [
+          {
+            "id": 0,
+            "name": "Date",
+            "alias": "string",
+            "size": 255,
+            "d": 0,
+            "mean": 45.4,
+            "median": 51,
+            "concept": {
+              "id": 0,
+              "uri": "string",
+              "name": "string",
+              "description": "string",
+              "created": "2021-03-12T15:26:21.000Z",
+              "columns": [
+                {
+                  "id": 0,
+                  "name": "date",
+                  "alias": "string",
+                  "database_id": 0,
+                  "table_id": 0,
+                  "internal_name": "mdb_date",
+                  "column_type": "date"
+                }
+              ]
+            },
+            "unit": {
+              "id": 0,
+              "uri": "string",
+              "name": "string",
+              "description": "string",
+              "created": "2021-03-12T15:26:21.000Z",
+              "columns": [
+                {
+                  "id": 0,
+                  "name": "date",
+                  "alias": "string",
+                  "database_id": 0,
+                  "table_id": 0,
+                  "internal_name": "mdb_date",
+                  "column_type": "date"
+                }
+              ]
+            },
+            "description": "Column comment",
+            "enums": [
+              "string"
+            ],
+            "sets": [
+              "string"
+            ],
+            "database_id": 0,
+            "table_id": 0,
+            "ordinal_position": 0,
+            "internal_name": "mdb_date",
+            "index_length": 0,
+            "length": 0,
+            "column_type": "string",
+            "data_length": 34300,
+            "max_data_length": 34300,
+            "num_rows": 32,
+            "val_min": 0,
+            "val_max": 100,
+            "std_dev": 5.32,
+            "is_public": true,
+            "is_null_allowed": false
+          }
+        ],
+        "constraints": {
+          "uniques": [
+            {
+              "id": 0,
+              "name": "string",
+              "table": {
+                "id": 0,
+                "name": "Air Quality",
+                "description": "Air Quality in Austria",
+                "owner": {
+                  "id": "1ffc7b0e-9aeb-4e8b-b8f1-68f3936155b4",
+                  "username": "jcarberry",
+                  "name": "Josiah Carberry",
+                  "orcid": "0000-0002-1825-0097",
+                  "qualified_name": "Josiah Carberry — @jcarberry",
+                  "given_name": "Josiah",
+                  "family_name": "Carberry"
+                },
+                "database_id": 0,
+                "internal_name": "air_quality",
+                "is_versioned": true
+              },
+              "columns": [
+                {
+                  "id": 0,
+                  "name": "Date",
+                  "alias": "string",
+                  "size": 255,
+                  "d": 0,
+                  "mean": 45.4,
+                  "median": 51,
+                  "concept": {
+                    "id": 0,
+                    "uri": "string",
+                    "name": "string",
+                    "description": "string",
+                    "created": "2021-03-12T15:26:21.000Z",
+                    "columns": [
+                      {
+                        "id": 0,
+                        "name": "date",
+                        "alias": "string",
+                        "database_id": 0,
+                        "table_id": 0,
+                        "internal_name": "mdb_date",
+                        "column_type": "date"
+                      }
+                    ]
+                  },
+                  "unit": {
+                    "id": 0,
+                    "uri": "string",
+                    "name": "string",
+                    "description": "string",
+                    "created": "2021-03-12T15:26:21.000Z",
+                    "columns": [
+                      {
+                        "id": 0,
+                        "name": "date",
+                        "alias": "string",
+                        "database_id": 0,
+                        "table_id": 0,
+                        "internal_name": "mdb_date",
+                        "column_type": "date"
+                      }
+                    ]
+                  },
+                  "description": "Column comment",
+                  "enums": [
+                    "string"
+                  ],
+                  "sets": [
+                    "string"
+                  ],
+                  "database_id": 0,
+                  "table_id": 0,
+                  "ordinal_position": 0,
+                  "internal_name": "mdb_date",
+                  "index_length": 0,
+                  "length": 0,
+                  "column_type": "string",
+                  "data_length": 34300,
+                  "max_data_length": 34300,
+                  "num_rows": 32,
+                  "val_min": 0,
+                  "val_max": 100,
+                  "std_dev": 5.32,
+                  "is_public": true,
+                  "is_null_allowed": false
+                }
+              ]
+            }
+          ],
+          "checks": [
+            "string"
+          ],
+          "foreign_keys": [
+            {
+              "id": 0,
+              "name": "string",
+              "references": [
+                {
+                  "id": 0,
+                  "column": {
+                    "id": 0,
+                    "name": "date",
+                    "alias": "string",
+                    "database_id": 0,
+                    "table_id": 0,
+                    "internal_name": "mdb_date",
+                    "column_type": "date"
+                  },
+                  "foreign_key": {
+                    "id": 0
+                  },
+                  "referenced_column": {
+                    "id": 0,
+                    "name": "date",
+                    "alias": "string",
+                    "database_id": 0,
+                    "table_id": 0,
+                    "internal_name": "mdb_date",
+                    "column_type": "date"
+                  }
+                }
+              ],
+              "table": {
+                "id": 0,
+                "name": "Air Quality",
+                "description": "Air Quality in Austria",
+                "owner": {
+                  "id": "1ffc7b0e-9aeb-4e8b-b8f1-68f3936155b4",
+                  "username": "jcarberry",
+                  "name": "Josiah Carberry",
+                  "orcid": "0000-0002-1825-0097",
+                  "qualified_name": "Josiah Carberry — @jcarberry",
+                  "given_name": "Josiah",
+                  "family_name": "Carberry"
+                },
+                "database_id": 0,
+                "internal_name": "air_quality",
+                "is_versioned": true
+              },
+              "referenced_table": {
+                "id": 0,
+                "name": "Air Quality",
+                "description": "Air Quality in Austria",
+                "owner": {
+                  "id": "1ffc7b0e-9aeb-4e8b-b8f1-68f3936155b4",
+                  "username": "jcarberry",
+                  "name": "Josiah Carberry",
+                  "orcid": "0000-0002-1825-0097",
+                  "qualified_name": "Josiah Carberry — @jcarberry",
+                  "given_name": "Josiah",
+                  "family_name": "Carberry"
+                },
+                "database_id": 0,
+                "internal_name": "air_quality",
+                "is_versioned": true
+              },
+              "on_update": "restrict",
+              "on_delete": "restrict"
+            }
+          ],
+          "primary_key": [
+            {
+              "id": 0,
+              "table": {
+                "id": 0,
+                "name": "Air Quality",
+                "description": "Air Quality in Austria",
+                "owner": {
+                  "id": "1ffc7b0e-9aeb-4e8b-b8f1-68f3936155b4",
+                  "username": "jcarberry",
+                  "name": "Josiah Carberry",
+                  "orcid": "0000-0002-1825-0097",
+                  "qualified_name": "Josiah Carberry — @jcarberry",
+                  "given_name": "Josiah",
+                  "family_name": "Carberry"
+                },
+                "database_id": 0,
+                "internal_name": "air_quality",
+                "is_versioned": true
+              },
+              "column": {
+                "id": 0,
+                "name": "date",
+                "alias": "string",
+                "database_id": 0,
+                "table_id": 0,
+                "internal_name": "mdb_date",
+                "column_type": "date"
+              }
+            }
+          ]
+        },
+        "database_id": 0,
+        "internal_name": "air_quality",
+        "is_versioned": true,
+        "created_by": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "queue_name": "air_quality",
+        "queue_type": "quorum",
+        "routing_key": "dbrepo.1.2",
+        "is_public": true,
+        "num_rows": 5,
+        "data_length": 16384,
+        "max_data_length": 0,
+        "avg_row_length": 3276
+      }
+    ],
+    "views": [
+      {
+        "id": 0,
+        "database": "string",
+        "name": "Air Quality",
+        "identifiers": [
+          {
+            "id": 0,
+            "type": "database",
+            "titles": [
+              {
+                "id": 0,
+                "title": "Airquality Demonstrator",
+                "language": "en",
+                "type": "AlternativeTitle"
+              }
+            ],
+            "descriptions": [
+              {
+                "id": 0,
+                "description": "Air quality reports at Stephansplatz, Vienna",
+                "language": "en",
+                "type": "Abstract"
+              }
+            ],
+            "funders": [
+              {
+                "id": 0,
+                "funder_name": "European Commission",
+                "funder_identifier": "http://doi.org/10.13039/501100000780",
+                "funder_identifier_type": "Crossref Funder ID",
+                "scheme_uri": "http://doi.org/",
+                "award_number": "824087",
+                "award_title": "EOSC-Life"
+              }
+            ],
+            "query": "SELECT `id`, `value`, `location` FROM `air_quality` WHERE `location` = \"09:STEF\"",
+            "execution": "2021-03-12T15:26:21.000Z",
+            "doi": "10.1038/nphys1170",
+            "publisher": "TU Wien",
+            "creator": {
+              "id": "1ffc7b0e-9aeb-4e8b-b8f1-68f3936155b4",
+              "username": "jcarberry",
+              "name": "Josiah Carberry",
+              "attributes": {
+                "theme": "light",
+                "orcid": "https://orcid.org/0000-0002-1825-0097",
+                "affiliation": "Brown University",
+                "language": "en"
+              },
+              "qualified_name": "Josiah Carberry — @jcarberry",
+              "given_name": "Josiah",
+              "family_name": "Carberry"
+            },
+            "language": "ab",
+            "licenses": [
+              {
+                "identifier": "MIT",
+                "uri": "https://opensource.org/licenses/MIT",
+                "description": "A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code."
+              }
+            ],
+            "creators": [
+              {
+                "id": 0,
+                "firstname": "Josiah",
+                "lastname": "Carberry",
+                "affiliation": "Brown University",
+                "creator_name": "Carberry, Josiah",
+                "name_type": "Personal",
+                "name_identifier": "0000-0002-1825-0097",
+                "name_identifier_scheme": "ORCID",
+                "name_identifier_scheme_uri": "https://orcid.org/",
+                "affiliation_identifier": "https://ror.org/05gq02987",
+                "affiliation_identifier_scheme": "ROR",
+                "affiliation_identifier_scheme_uri": "https://ror.org/"
+              }
+            ],
+            "status": "draft",
+            "created": "2021-03-12T15:26:21.000Z",
+            "database_id": 1,
+            "query_id": 1,
+            "table_id": 1,
+            "view_id": 1,
+            "query_normalized": "SELECT `id`, `value`, `location` FROM `air_quality` WHERE `location` = \"09:STEF\"",
+            "related_identifiers": [
+              {
+                "id": 0,
+                "value": "10.70124/dc4zh-9ce78",
+                "type": "DOI",
+                "relation": "Cites"
+              }
+            ],
+            "query_hash": "string",
+            "result_hash": "34fe82cda2c53f13f8d90cfd7a3469e3a939ff311add50dce30d9136397bf8e5",
+            "result_number": 1,
+            "publication_day": 15,
+            "publication_month": 12,
+            "publication_year": 2022,
+            "created_by": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "last_modified": "2021-03-12T15:26:21.000Z"
+          }
+        ],
+        "query": "SELECT `id` FROM `air_quality` ORDER BY `value` DESC",
+        "created": "2021-03-12T15:26:21.000Z",
+        "creator": {
+          "id": "1ffc7b0e-9aeb-4e8b-b8f1-68f3936155b4",
+          "username": "jcarberry",
+          "name": "Josiah Carberry",
+          "attributes": {
+            "theme": "light",
+            "orcid": "https://orcid.org/0000-0002-1825-0097",
+            "affiliation": "Brown University",
+            "language": "en"
+          },
+          "qualified_name": "Josiah Carberry — @jcarberry",
+          "given_name": "Josiah",
+          "family_name": "Carberry"
+        },
+        "columns": [
+          {
+            "id": 0,
+            "name": "Date",
+            "size": 255,
+            "d": 0,
+            "concept": {
+              "id": 0,
+              "uri": "string",
+              "name": "string",
+              "description": "string",
+              "created": "2021-03-12T15:26:21.000Z",
+              "columns": [
+                {
+                  "id": 0,
+                  "name": "date",
+                  "alias": "string",
+                  "database_id": 0,
+                  "table_id": 0,
+                  "internal_name": "mdb_date",
+                  "column_type": "date"
+                }
+              ]
+            },
+            "unit": {
+              "id": 0,
+              "uri": "string",
+              "name": "string",
+              "description": "string",
+              "created": "2021-03-12T15:26:21.000Z",
+              "columns": [
+                {
+                  "id": 0,
+                  "name": "date",
+                  "alias": "string",
+                  "database_id": 0,
+                  "table_id": 0,
+                  "internal_name": "mdb_date",
+                  "column_type": "date"
+                }
+              ]
+            },
+            "description": "Column comment",
+            "database_id": 0,
+            "ordinal_position": 0,
+            "internal_name": "mdb_date",
+            "auto_generated": false,
+            "index_length": 0,
+            "length": 0,
+            "column_type": "string",
+            "is_public": true,
+            "is_null_allowed": false
+          }
+        ],
+        "database_id": 0,
+        "internal_name": "air_quality",
+        "is_public": true,
+        "initial_view": true,
+        "query_hash": "7de03e818900b6ea6d58ad0306d4a741d658c6df3d1964e89ed2395d8c7e7916",
+        "last_modified": "2021-03-12T15:26:21.000Z"
+      }
+    ],
+    "container": {
+      "id": 0,
+      "name": "Air Quality",
+      "host": "string",
+      "port": 0,
+      "image": {
+        "id": 0,
+        "registry": "docker.io/library",
+        "name": "mariadb",
+        "version": "10.5",
+        "dialect": "org.hibernate.dialect.MariaDBDialect",
+        "operators": [
+          {
+            "value": "XOR",
+            "documentation": "https://mariadb.com/kb/en/xor/",
+            "display_name": "XOR"
+          }
+        ],
+        "driver_class": "org.mariadb.jdbc.Driver",
+        "jdbc_method": "mariadb",
+        "default": false,
+        "default_port": 3306,
+        "data_types": [
+          {
+            "value": "time",
+            "documentation": "https://mariadb.com/kb/en/time/",
+            "display_name": "TIME(fsp)",
+            "size_min": 0,
+            "size_max": 6,
+            "size_default": 0,
+            "size_required": false,
+            "d_min": 0,
+            "d_max": 0,
+            "d_default": 0,
+            "d_required": true,
+            "data_hint": "e.g. HH:MM:SS, HH:MM, HHMMSS, H:M:S",
+            "type_hint": "fsp=microsecond precision, min. 0, max. 6",
+            "is_quoted": false,
+            "is_buildable": true
+          }
+        ]
+      },
+      "quota": 50,
+      "count": 10,
+      "created": "2021-03-12T15:26:21.000Z",
+      "internal_name": "data-db",
+      "ui_host": "string",
+      "ui_port": 0
+    },
+    "accesses": [
+      {
+        "user": {
+          "id": "1ffc7b0e-9aeb-4e8b-b8f1-68f3936155b4",
+          "username": "jcarberry",
+          "name": "Josiah Carberry",
+          "attributes": {
+            "theme": "light",
+            "orcid": "https://orcid.org/0000-0002-1825-0097",
+            "affiliation": "Brown University",
+            "language": "en"
+          },
+          "qualified_name": "Josiah Carberry — @jcarberry",
+          "given_name": "Josiah",
+          "family_name": "Carberry"
+        },
+        "type": "read",
+        "created": "2021-03-12T15:26:21.000Z"
+      }
+    ],
+    "identifiers": [
+      {
+        "id": 0,
+        "type": "database",
+        "titles": [
+          {
+            "id": 0,
+            "title": "Airquality Demonstrator",
+            "language": "en",
+            "type": "AlternativeTitle"
+          }
+        ],
+        "descriptions": [
+          {
+            "id": 0,
+            "description": "Air quality reports at Stephansplatz, Vienna",
+            "language": "en",
+            "type": "Abstract"
+          }
+        ],
+        "funders": [
+          {
+            "id": 0,
+            "funder_name": "European Commission",
+            "funder_identifier": "http://doi.org/10.13039/501100000780",
+            "funder_identifier_type": "Crossref Funder ID",
+            "scheme_uri": "http://doi.org/",
+            "award_number": "824087",
+            "award_title": "EOSC-Life"
+          }
+        ],
+        "query": "SELECT `id`, `value`, `location` FROM `air_quality` WHERE `location` = \"09:STEF\"",
+        "execution": "2021-03-12T15:26:21.000Z",
+        "doi": "10.1038/nphys1170",
+        "publisher": "TU Wien",
+        "creator": {
+          "id": "1ffc7b0e-9aeb-4e8b-b8f1-68f3936155b4",
+          "username": "jcarberry",
+          "name": "Josiah Carberry",
+          "attributes": {
+            "theme": "light",
+            "orcid": "https://orcid.org/0000-0002-1825-0097",
+            "affiliation": "Brown University",
+            "language": "en"
+          },
+          "qualified_name": "Josiah Carberry — @jcarberry",
+          "given_name": "Josiah",
+          "family_name": "Carberry"
+        },
+        "language": "ab",
+        "licenses": [
+          {
+            "identifier": "MIT",
+            "uri": "https://opensource.org/licenses/MIT",
+            "description": "A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code."
+          }
+        ],
+        "creators": [
+          {
+            "id": 0,
+            "firstname": "Josiah",
+            "lastname": "Carberry",
+            "affiliation": "Brown University",
+            "creator_name": "Carberry, Josiah",
+            "name_type": "Personal",
+            "name_identifier": "0000-0002-1825-0097",
+            "name_identifier_scheme": "ORCID",
+            "name_identifier_scheme_uri": "https://orcid.org/",
+            "affiliation_identifier": "https://ror.org/05gq02987",
+            "affiliation_identifier_scheme": "ROR",
+            "affiliation_identifier_scheme_uri": "https://ror.org/"
+          }
+        ],
+        "status": "draft",
+        "created": "2021-03-12T15:26:21.000Z",
+        "database_id": 1,
+        "query_id": 1,
+        "table_id": 1,
+        "view_id": 1,
+        "query_normalized": "SELECT `id`, `value`, `location` FROM `air_quality` WHERE `location` = \"09:STEF\"",
+        "related_identifiers": [
+          {
+            "id": 0,
+            "value": "10.70124/dc4zh-9ce78",
+            "type": "DOI",
+            "relation": "Cites"
+          }
+        ],
+        "query_hash": "string",
+        "result_hash": "34fe82cda2c53f13f8d90cfd7a3469e3a939ff311add50dce30d9136397bf8e5",
+        "result_number": 1,
+        "publication_day": 15,
+        "publication_month": 12,
+        "publication_year": 2022,
+        "created_by": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "last_modified": "2021-03-12T15:26:21.000Z"
+      }
+    ],
+    "subsets": [
+      {
+        "id": 0,
+        "type": "database",
+        "titles": [
+          {
+            "id": 0,
+            "title": "Airquality Demonstrator",
+            "language": "en",
+            "type": "AlternativeTitle"
+          }
+        ],
+        "descriptions": [
+          {
+            "id": 0,
+            "description": "Air quality reports at Stephansplatz, Vienna",
+            "language": "en",
+            "type": "Abstract"
+          }
+        ],
+        "funders": [
+          {
+            "id": 0,
+            "funder_name": "European Commission",
+            "funder_identifier": "http://doi.org/10.13039/501100000780",
+            "funder_identifier_type": "Crossref Funder ID",
+            "scheme_uri": "http://doi.org/",
+            "award_number": "824087",
+            "award_title": "EOSC-Life"
+          }
+        ],
+        "query": "SELECT `id`, `value`, `location` FROM `air_quality` WHERE `location` = \"09:STEF\"",
+        "execution": "2021-03-12T15:26:21.000Z",
+        "doi": "10.1038/nphys1170",
+        "publisher": "TU Wien",
+        "creator": {
+          "id": "1ffc7b0e-9aeb-4e8b-b8f1-68f3936155b4",
+          "username": "jcarberry",
+          "name": "Josiah Carberry",
+          "attributes": {
+            "theme": "light",
+            "orcid": "https://orcid.org/0000-0002-1825-0097",
+            "affiliation": "Brown University",
+            "language": "en"
+          },
+          "qualified_name": "Josiah Carberry — @jcarberry",
+          "given_name": "Josiah",
+          "family_name": "Carberry"
+        },
+        "language": "ab",
+        "licenses": [
+          {
+            "identifier": "MIT",
+            "uri": "https://opensource.org/licenses/MIT",
+            "description": "A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code."
+          }
+        ],
+        "creators": [
+          {
+            "id": 0,
+            "firstname": "Josiah",
+            "lastname": "Carberry",
+            "affiliation": "Brown University",
+            "creator_name": "Carberry, Josiah",
+            "name_type": "Personal",
+            "name_identifier": "0000-0002-1825-0097",
+            "name_identifier_scheme": "ORCID",
+            "name_identifier_scheme_uri": "https://orcid.org/",
+            "affiliation_identifier": "https://ror.org/05gq02987",
+            "affiliation_identifier_scheme": "ROR",
+            "affiliation_identifier_scheme_uri": "https://ror.org/"
+          }
+        ],
+        "status": "draft",
+        "created": "2021-03-12T15:26:21.000Z",
+        "database_id": 1,
+        "query_id": 1,
+        "table_id": 1,
+        "view_id": 1,
+        "query_normalized": "SELECT `id`, `value`, `location` FROM `air_quality` WHERE `location` = \"09:STEF\"",
+        "related_identifiers": [
+          {
+            "id": 0,
+            "value": "10.70124/dc4zh-9ce78",
+            "type": "DOI",
+            "relation": "Cites"
+          }
+        ],
+        "query_hash": "string",
+        "result_hash": "34fe82cda2c53f13f8d90cfd7a3469e3a939ff311add50dce30d9136397bf8e5",
+        "result_number": 1,
+        "publication_day": 15,
+        "publication_month": 12,
+        "publication_year": 2022,
+        "created_by": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "last_modified": "2021-03-12T15:26:21.000Z"
+      }
+    ],
+    "creator": {
+      "id": "1ffc7b0e-9aeb-4e8b-b8f1-68f3936155b4",
+      "username": "jcarberry",
+      "name": "Josiah Carberry",
+      "attributes": {
+        "theme": "light",
+        "orcid": "https://orcid.org/0000-0002-1825-0097",
+        "affiliation": "Brown University",
+        "language": "en"
+      },
+      "qualified_name": "Josiah Carberry — @jcarberry",
+      "given_name": "Josiah",
+      "family_name": "Carberry"
+    },
+    "contact": {
+      "id": "1ffc7b0e-9aeb-4e8b-b8f1-68f3936155b4",
+      "username": "jcarberry",
+      "name": "Josiah Carberry",
+      "attributes": {
+        "theme": "light",
+        "orcid": "https://orcid.org/0000-0002-1825-0097",
+        "affiliation": "Brown University",
+        "language": "en"
+      },
+      "qualified_name": "Josiah Carberry — @jcarberry",
+      "given_name": "Josiah",
+      "family_name": "Carberry"
+    },
+    "owner": {
+      "id": "1ffc7b0e-9aeb-4e8b-b8f1-68f3936155b4",
+      "username": "jcarberry",
+      "name": "Josiah Carberry",
+      "attributes": {
+        "theme": "light",
+        "orcid": "https://orcid.org/0000-0002-1825-0097",
+        "affiliation": "Brown University",
+        "language": "en"
+      },
+      "qualified_name": "Josiah Carberry — @jcarberry",
+      "given_name": "Josiah",
+      "family_name": "Carberry"
+    },
+    "created": "2021-03-12T15:26:21.000Z",
+    "exchange_name": "dbrepo",
+    "exchange_type": "topic",
+    "internal_name": "air_quality",
+    "is_public": true,
+    "preview_image": "string"
+  }

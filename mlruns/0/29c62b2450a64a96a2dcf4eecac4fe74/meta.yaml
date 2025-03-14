@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/reema/Thesis_Infra_repo/mlruns/0/29c62b2450a64a96a2dcf4eecac4fe74/artifacts
+end_time: 1741637219397
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 29c62b2450a64a96a2dcf4eecac4fe74
+run_name: abrasive-ape-342
+run_uuid: 29c62b2450a64a96a2dcf4eecac4fe74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741637218732
+status: 4
+tags: []
+user_id: reema

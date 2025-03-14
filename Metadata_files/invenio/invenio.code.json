@@ -1,0 +1,156 @@
+{
+  "id": "4t77w-a4p21",
+  "created": "2025-01-20T11:40:49.472971+00:00",
+  "updated": "2025-01-20T11:40:49.634611+00:00",
+  "links": {
+    "self": "https://127.0.0.1:5000/api/records/4t77w-a4p21",
+    "self_html": "https://127.0.0.1:5000/records/4t77w-a4p21",
+    "parent": "https://127.0.0.1:5000/api/records/nwtap-n0z53",
+    "parent_html": "https://127.0.0.1:5000/records/nwtap-n0z53",
+    "self_iiif_manifest": "https://127.0.0.1:5000/api/iiif/record:4t77w-a4p21/manifest",
+    "self_iiif_sequence": "https://127.0.0.1:5000/api/iiif/record:4t77w-a4p21/sequence/default",
+    "files": "https://127.0.0.1:5000/api/records/4t77w-a4p21/files",
+    "media_files": "https://127.0.0.1:5000/api/records/4t77w-a4p21/media-files",
+    "archive": "https://127.0.0.1:5000/api/records/4t77w-a4p21/files-archive",
+    "archive_media": "https://127.0.0.1:5000/api/records/4t77w-a4p21/media-files-archive",
+    "latest": "https://127.0.0.1:5000/api/records/4t77w-a4p21/versions/latest",
+    "latest_html": "https://127.0.0.1:5000/records/4t77w-a4p21/latest",
+    "draft": "https://127.0.0.1:5000/api/records/4t77w-a4p21/draft",
+    "versions": "https://127.0.0.1:5000/api/records/4t77w-a4p21/versions",
+    "access_links": "https://127.0.0.1:5000/api/records/4t77w-a4p21/access/links",
+    "access_grants": "https://127.0.0.1:5000/api/records/4t77w-a4p21/access/grants",
+    "access_users": "https://127.0.0.1:5000/api/records/4t77w-a4p21/access/users",
+    "access_groups": "https://127.0.0.1:5000/api/records/4t77w-a4p21/access/groups",
+    "access_request": "https://127.0.0.1:5000/api/records/4t77w-a4p21/access/request",
+    "access": "https://127.0.0.1:5000/api/records/4t77w-a4p21/access",
+    "reserve_doi": "https://127.0.0.1:5000/api/records/4t77w-a4p21/draft/pids/doi",
+    "communities": "https://127.0.0.1:5000/api/records/4t77w-a4p21/communities",
+    "communities-suggestions": "https://127.0.0.1:5000/api/records/4t77w-a4p21/communities-suggestions",
+    "requests": "https://127.0.0.1:5000/api/records/4t77w-a4p21/requests"
+  },
+  "revision_id": 4,
+  "parent": {
+    "id": "nwtap-n0z53",
+    "access": {
+      "grants": [],
+      "owned_by": {
+        "user": "3"
+      },
+      "links": [],
+      "settings": {
+        "allow_user_requests": false,
+        "allow_guest_requests": false,
+        "accept_conditions_text": null,
+        "secret_link_expiration": 0
+      }
+    },
+    "communities": {},
+    "pids": {}
+  },
+  "versions": {
+    "is_latest": true,
+    "is_latest_draft": true,
+    "index": 1
+  },
+  "is_published": true,
+  "is_draft": false,
+  "pids": {
+    "oai": {
+      "identifier": "oai:my-site.com:4t77w-a4p21",
+      "provider": "oai"
+    }
+  },
+  "metadata": {
+    "resource_type": {
+      "id": "model",
+      "title": {
+        "de": "Modell",
+        "en": "Model",
+        "sv": "Modell"
+      }
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "type": "personal",
+          "name": "Dass, Reema",
+          "given_name": "Reema",
+          "family_name": "Dass"
+        },
+        "role": {
+          "id": "researcher",
+          "title": {
+            "de": "WissenschaftlerIn",
+            "en": "Researcher",
+            "sv": "Forskare"
+          }
+        }
+      }
+    ],
+    "title": "ML_Model",
+    "publication_date": "2025-01-20"
+  },
+  "custom_fields": {},
+  "access": {
+    "record": "public",
+    "files": "public",
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "status": "open"
+  },
+  "files": {
+    "enabled": true,
+    "order": [],
+    "count": 1,
+    "total_bytes": 2794,
+    "entries": {
+      "ML_model": {
+        "id": "39a7c4ff-c45c-4776-a5d9-9f4279c305cc",
+        "checksum": "md5:e99d10a6109248d9103fac13c10a62cf",
+        "ext": "bin",
+        "size": 2794,
+        "mimetype": "application/octet-stream",
+        "storage_class": "L",
+        "key": "ML_model",
+        "metadata": {},
+        "access": {
+          "hidden": false
+        },
+        "links": {
+          "self": "https://127.0.0.1:5000/api/records/4t77w-a4p21/files/ML_model",
+          "content": "https://127.0.0.1:5000/api/records/4t77w-a4p21/files/ML_model/content"
+        }
+      }
+    }
+  },
+  "media_files": {
+    "enabled": false,
+    "order": [],
+    "count": 0,
+    "total_bytes": 0,
+    "entries": {}
+  },
+  "status": "published",
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "stats": {
+    "this_version": {
+      "views": 0,
+      "unique_views": 0,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "data_volume": 0.0
+    },
+    "all_versions": {
+      "views": 0,
+      "unique_views": 0,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "data_volume": 0.0
+    }
+  }
+}

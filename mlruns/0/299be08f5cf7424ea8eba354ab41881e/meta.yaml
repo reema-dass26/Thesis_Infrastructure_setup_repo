@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/reema/Thesis_Infra_repo/mlruns/0/299be08f5cf7424ea8eba354ab41881e/artifacts
+end_time: 1741638099994
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 299be08f5cf7424ea8eba354ab41881e
+run_name: respected-colt-562
+run_uuid: 299be08f5cf7424ea8eba354ab41881e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741638090878
+status: 3
+tags: []
+user_id: reema

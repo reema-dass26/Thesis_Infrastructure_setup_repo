@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/reema/Thesis_Infra_repo/mlruns/0/b6cbbf904db8406497d39c5200b7b174/artifacts
+end_time: 1741637269281
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b6cbbf904db8406497d39c5200b7b174
+run_name: languid-owl-911
+run_uuid: b6cbbf904db8406497d39c5200b7b174
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741637260484
+status: 3
+tags: []
+user_id: reema

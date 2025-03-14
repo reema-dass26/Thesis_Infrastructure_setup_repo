@@ -1,0 +1,101 @@
+{
+  "structured_repository": {
+    "title": "",
+    "description": "",
+    "identifier": "",
+    "creator": "",
+    "contributor": "",
+    "publisher": "",
+    "date_created": "",
+    "date_modified": "",
+    "subject": "",
+    "keywords": [],
+    "language": "",
+    "format": "",
+    "version": "",
+    "license": "",
+    "access_rights": "",
+    "source": "",
+    "provenance": "",
+    "relations": {
+      "is_part_of": "",
+      "has_part": "",
+      "references": "",
+      "is_referenced_by": ""
+    }
+  },
+  "unstructured_repository": {
+    "file_name": "",
+    "file_size": "",
+    "file_format": "",
+    "checksum": "",
+    "storage_location": "",
+    "creation_date": "",
+    "modification_date": "",
+    "access_control": "",
+    "ownership": "",
+    "retention_policy": "",
+    "classification": "",
+    "tags": [],
+    "provenance": {
+      "source": "",
+      "derivation": "",
+      "transformation": ""
+    }
+  },
+  "machine_learning_metadata": {
+    "dataset": {
+      "name": "",
+      "version": "",
+      "source": "",
+      "features": [],
+      "labels": [],
+      "preprocessing_steps": []
+    },
+    "model": {
+      "architecture": "",
+      "framework": "",
+      "hyperparameters": {},
+      "training_data": "",
+      "evaluation_metrics": {
+        "accuracy": "",
+        "precision": "",
+        "recall": "",
+        "f1_score": ""
+      },
+      "training_time": "",
+      "hardware_specifications": {
+        "gpu": "",
+        "cpu": "",
+        "memory": ""
+      }
+    },
+    "provenance": {
+      "training_date": "",
+      "trained_by": "",
+      "data_version": "",
+      "code_version": ""
+    }
+  },
+  "github_repository_metadata": {
+    "repository_name": "",
+    "owner": "",
+    "description": "",
+    "visibility": "",
+    "created_at": "",
+    "updated_at": "",
+    "pushed_at": "",
+    "language": "",
+    "topics": [],
+    "license": "",
+    "default_branch": "",
+    "stars": "",
+    "forks": "",
+    "open_issues": "",
+    "pull_requests": "",
+    "contributors": [],
+    "commits": [],
+    "releases": [],
+    "workflow_runs": []
+  }
+}

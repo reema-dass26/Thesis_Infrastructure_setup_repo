@@ -1,0 +1,11 @@
+{
+    "run_id": "713c86e3999345cc82eda7b3687f9764",
+    "parameters": {
+        "classifier__max_depth": null,
+        "classifier__min_samples_split": 2,
+        "classifier__n_estimators": 100
+    },
+    "metrics": {
+        "accuracy": 1.0
+    }
+}

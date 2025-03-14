@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/reema/Thesis_Infra_repo/mlruns/0/555b034acb714e96bb3216233f2182ff/artifacts
+end_time: 1741637563822
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 555b034acb714e96bb3216233f2182ff
+run_name: learned-zebra-913
+run_uuid: 555b034acb714e96bb3216233f2182ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741637563077
+status: 4
+tags: []
+user_id: reema

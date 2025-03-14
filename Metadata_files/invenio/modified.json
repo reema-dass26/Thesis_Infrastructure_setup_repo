@@ -1,0 +1,194 @@
+{
+  "access": {
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "files": "public",
+    "record": "public",
+    "status": "open"
+  },
+  "created": "2025-03-07T18:22:12.350458+00:00",
+  "custom_fields": {},
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "files": {
+    "count": 1,
+    "enabled": true,
+    "entries": {
+      "ssd.pkl": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:be46b8705399e18cfebe756edb30c567",
+        "ext": "pkl",
+        "id": "fd616f08-aac2-4ccf-95d7-b0abf5a037df",
+        "key": "ssd.pkl",
+        "links": {
+          "content": "https://127.0.0.1:5000/api/records/h2nex-4n692/files/ssd.pkl/content",
+          "self": "https://127.0.0.1:5000/api/records/h2nex-4n692/files/ssd.pkl"
+        },
+        "metadata": {},
+        "mimetype": "application/octet-stream",
+        "size": 184273,
+        "storage_class": "L"
+      }
+    },
+    "order": [],
+    "total_bytes": 184273
+  },
+  "id": "h2nex-4n692",
+  "is_draft": false,
+  "is_published": true,
+  "links": {
+    "access": "https://127.0.0.1:5000/api/records/h2nex-4n692/access",
+    "access_grants": "https://127.0.0.1:5000/api/records/h2nex-4n692/access/grants",
+    "access_groups": "https://127.0.0.1:5000/api/records/h2nex-4n692/access/groups",
+    "access_links": "https://127.0.0.1:5000/api/records/h2nex-4n692/access/links",
+    "access_request": "https://127.0.0.1:5000/api/records/h2nex-4n692/access/request",
+    "access_users": "https://127.0.0.1:5000/api/records/h2nex-4n692/access/users",
+    "archive": "https://127.0.0.1:5000/api/records/h2nex-4n692/files-archive",
+    "archive_media": "https://127.0.0.1:5000/api/records/h2nex-4n692/media-files-archive",
+    "communities": "https://127.0.0.1:5000/api/records/h2nex-4n692/communities",
+    "communities-suggestions": "https://127.0.0.1:5000/api/records/h2nex-4n692/communities-suggestions",
+    "draft": "https://127.0.0.1:5000/api/records/h2nex-4n692/draft",
+    "files": "https://127.0.0.1:5000/api/records/h2nex-4n692/files",
+    "latest": "https://127.0.0.1:5000/api/records/h2nex-4n692/versions/latest",
+    "latest_html": "https://127.0.0.1:5000/records/h2nex-4n692/latest",
+    "media_files": "https://127.0.0.1:5000/api/records/h2nex-4n692/media-files",
+    "parent": "https://127.0.0.1:5000/api/records/f471m-t3y09",
+    "parent_html": "https://127.0.0.1:5000/records/f471m-t3y09",
+    "requests": "https://127.0.0.1:5000/api/records/h2nex-4n692/requests",
+    "reserve_doi": "https://127.0.0.1:5000/api/records/h2nex-4n692/draft/pids/doi",
+    "self": "https://127.0.0.1:5000/api/records/h2nex-4n692",
+    "self_html": "https://127.0.0.1:5000/records/h2nex-4n692",
+    "self_iiif_manifest": "https://127.0.0.1:5000/api/iiif/record:h2nex-4n692/manifest",
+    "self_iiif_sequence": "https://127.0.0.1:5000/api/iiif/record:h2nex-4n692/sequence/default",
+    "versions": "https://127.0.0.1:5000/api/records/h2nex-4n692/versions"
+  },
+  "media_files": {
+    "count": 0,
+    "enabled": false,
+    "entries": {},
+    "order": [],
+    "total_bytes": 0
+  },
+  "metadata": {
+    "creators": [
+      {
+        "person_or_org": {
+          "family_name": "Dass",
+          "given_name": "Reema",
+          "name": "Dass, Reema",
+          "type": "personal"
+        }
+      }
+    ],
+    "dates": [
+      {
+        "date": "2025-02",
+        "description": "other",
+        "type": {
+          "id": "other",
+          "title": {
+            "de": "Sonstiges",
+            "en": "Other",
+            "sv": "\u00d6vrig"
+          }
+        }
+      }
+    ],
+    "description": "<p>ML model description</p>",
+    "publication_date": "2025",
+    "publisher": "Thesis",
+    "resource_type": {
+      "id": "model",
+      "title": {
+        "de": "Modell",
+        "en": "Model",
+        "sv": "Modell"
+      }
+    },
+    "rights": [
+      {
+        "description": {
+          "en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."
+        },
+        "icon": "cc-by-icon",
+        "id": "cc-by-4.0",
+        "props": {
+          "scheme": "spdx",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "title": {
+          "en": "Creative Commons Attribution 4.0 International"
+        }
+      },
+      {
+        "description": {
+          "en": "CC0 waives copyright interest in a work you've created and dedicates it to the world-wide public domain. Use CC0 to opt out of copyright entirely and ensure your work has the widest reach."
+        },
+        "icon": "cc-cc0-icon",
+        "id": "cc0-1.0",
+        "props": {
+          "scheme": "spdx",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        "title": {
+          "en": "Creative Commons Zero v1.0 Universal"
+        }
+      }
+    ],
+    "title": "ML model"
+  },
+  "parent": {
+    "access": {
+      "grants": [],
+      "links": [],
+      "owned_by": {
+        "user": "3"
+      },
+      "settings": {
+        "accept_conditions_text": null,
+        "allow_guest_requests": false,
+        "allow_user_requests": false,
+        "secret_link_expiration": 0
+      }
+    },
+    "communities": {},
+    "id": "f471m-t3y09",
+    "pids": {}
+  },
+  "pids": {
+    "oai": {
+      "identifier": "oai:thesis.com:h2nex-4n692",
+      "provider": "oai"
+    }
+  },
+  "revision_id": 4,
+  "stats": {
+    "all_versions": {
+      "data_volume": 0.0,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "unique_views": 2,
+      "views": 6
+    },
+    "this_version": {
+      "data_volume": 0.0,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "unique_views": 0,
+      "views": 0
+    }
+  },
+  "status": "published",
+  "updated": "2025-03-07T18:22:12.434294+00:00",
+  "versions": {
+    "index": 2,
+    "is_latest": true,
+    "is_latest_draft": true
+  }
+}

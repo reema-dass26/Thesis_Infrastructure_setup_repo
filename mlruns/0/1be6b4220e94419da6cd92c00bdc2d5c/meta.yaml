@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/reema/Thesis_Infra_repo/mlruns/0/1be6b4220e94419da6cd92c00bdc2d5c/artifacts
+end_time: 1741637615534
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1be6b4220e94419da6cd92c00bdc2d5c
+run_name: agreeable-pig-143
+run_uuid: 1be6b4220e94419da6cd92c00bdc2d5c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741637606583
+status: 3
+tags: []
+user_id: reema

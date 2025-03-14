@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/reema/Thesis_Infra_repo/mlruns/0/e3465deaa4404d988522f594a0f5d952/artifacts
+end_time: 1741637093636
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e3465deaa4404d988522f594a0f5d952
+run_name: bedecked-foal-813
+run_uuid: e3465deaa4404d988522f594a0f5d952
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741637084989
+status: 3
+tags: []
+user_id: reema

@@ -1,0 +1,4 @@
+
+    Chose Random Forest Classifier due to its robustness in handling non-linear relationships, 
+    and its ability to handle both categorical and numerical features. It also performs well on small datasets.
+    
