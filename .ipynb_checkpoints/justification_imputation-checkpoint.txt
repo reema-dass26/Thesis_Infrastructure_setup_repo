@@ -1,0 +1,4 @@
+
+    Chose mean imputation strategy as the dataset contains numerical values that are missing randomly,
+    and the mean is expected to provide an unbiased estimate.
+    

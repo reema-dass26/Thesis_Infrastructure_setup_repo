@@ -1,0 +1,4 @@
+
+    Used StandardScaler to normalize the features and improve the model's ability to learn, 
+    especially when working with distance-based algorithms like Random Forest.
+    
